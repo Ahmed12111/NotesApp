@@ -13,7 +13,10 @@ class CustomAppBarWidget extends StatelessWidget {
         children: <Widget>[
           Text(
             "Notes",
-            style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+            style: TextStyle(
+              fontSize: 32,
+              fontWeight: FontWeight.bold,
+            ),
           ),
           CustomIconButton(),
         ],
